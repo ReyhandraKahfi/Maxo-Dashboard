@@ -1,0 +1,42 @@
+const DB = {
+  products: [
+    {id:1,product_name:'Toyota Avanza',category:'MPV',stock:15,price:250000000},
+    {id:2,product_name:'Honda Brio',category:'City Car',stock:12,price:185000000},
+    {id:3,product_name:'Daihatsu Rocky',category:'SUV',stock:8,price:220000000},
+    {id:4,product_name:'Toyota Fortuner',category:'SUV',stock:4,price:480000000},
+    {id:5,product_name:'Honda Jazz',category:'City Car',stock:2,price:260000000},
+    {id:6,product_name:'Mitsubishi Xpander',category:'MPV',stock:18,price:268000000},
+    {id:7,product_name:'Suzuki Ertiga',category:'MPV',stock:11,price:215000000},
+    {id:8,product_name:'Toyota Yaris',category:'City Car',stock:3,price:270000000},
+    {id:9,product_name:'Honda Civic',category:'Sedan',stock:6,price:510000000},
+    {id:10,product_name:'Toyota Corolla',category:'Sedan',stock:5,price:490000000},
+  ],
+  customers: [
+    {id:1,customer_name:'Budi Santoso',phone:'08123456789',email:'budi@email.com',address:'Jakarta Selatan'},
+    {id:2,customer_name:'Dewi Rahayu',phone:'08234567890',email:'dewi@email.com',address:'Bandung'},
+    {id:3,customer_name:'Ahmad Farid',phone:'08345678901',email:'ahmad@email.com',address:'Surabaya'},
+    {id:4,customer_name:'Siti Nurjanah',phone:'08456789012',email:'siti@email.com',address:'Yogyakarta'},
+    {id:5,customer_name:'Rudi Hartono',phone:'08567890123',email:'rudi@email.com',address:'Semarang'},
+    {id:6,customer_name:'Linda Kusuma',phone:'08678901234',email:'linda@email.com',address:'Medan'},
+    {id:7,customer_name:'Hendra Wijaya',phone:'08789012345',email:'hendra@email.com',address:'Makassar'},
+    {id:8,customer_name:'Rina Susanti',phone:'08890123456',email:'rina@email.com',address:'Palembang'},
+  ],
+  transactions: [
+    {id:1,transaction_code:'TRX001',customer_name:'Budi Santoso',product_name:'Toyota Avanza',quantity:1,total_price:250000000,transaction_date:'2026-01-10'},
+    {id:2,transaction_code:'TRX002',customer_name:'Dewi Rahayu',product_name:'Honda Brio',quantity:2,total_price:370000000,transaction_date:'2026-01-15'},
+    {id:3,transaction_code:'TRX003',customer_name:'Ahmad Farid',product_name:'Daihatsu Rocky',quantity:1,total_price:220000000,transaction_date:'2026-02-01'},
+    {id:4,transaction_code:'TRX004',customer_name:'Siti Nurjanah',product_name:'Toyota Fortuner',quantity:1,total_price:480000000,transaction_date:'2026-02-14'},
+    {id:5,transaction_code:'TRX005',customer_name:'Rudi Hartono',product_name:'Mitsubishi Xpander',quantity:1,total_price:268000000,transaction_date:'2026-03-05'},
+    {id:6,transaction_code:'TRX006',customer_name:'Linda Kusuma',product_name:'Toyota Avanza',quantity:2,total_price:500000000,transaction_date:'2026-03-18'},
+    {id:7,transaction_code:'TRX007',customer_name:'Hendra Wijaya',product_name:'Honda Civic',quantity:1,total_price:510000000,transaction_date:'2026-04-02'},
+    {id:8,transaction_code:'TRX008',customer_name:'Rina Susanti',product_name:'Toyota Corolla',quantity:1,total_price:490000000,transaction_date:'2026-04-22'},
+    {id:9,transaction_code:'TRX009',customer_name:'Budi Santoso',product_name:'Suzuki Ertiga',quantity:1,total_price:215000000,transaction_date:'2026-05-08'},
+    {id:10,transaction_code:'TRX010',customer_name:'Dewi Rahayu',product_name:'Honda Jazz',quantity:1,total_price:260000000,transaction_date:'2026-06-01'},
+  ],
+  users: [
+    {id:1,name:'Administrator',email:'admin@company.com',role:'Admin',status:'Active'},
+    {id:2,name:'Sales Manager',email:'sales@company.com',role:'Manager',status:'Active'},
+    {id:3,name:'Inventory Staff',email:'inventory@company.com',role:'Staff',status:'Active'},
+    {id:4,name:'Accountant',email:'account@company.com',role:'Staff',status:'Inactive'},
+  ]
+};
