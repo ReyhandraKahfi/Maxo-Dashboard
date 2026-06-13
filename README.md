@@ -8,8 +8,6 @@
 
 A modern, feature-rich admin dashboard for managing business operations, including products, customers, sales transactions, analytics, and user management. Built with vanilla JavaScript, Chart.js, and GSAP for smooth animations.
 
-![Dashboard Preview](https://via.placeholder.com/800x450?text=Maxo+Team+Dashboard+Preview)
-
 ## ✨ Features
 
 ### Core Modules
@@ -34,18 +32,8 @@ A modern, feature-rich admin dashboard for managing business operations, includi
 
 ## 🚀 Live Demo
 
-[View Live Demo](#) *(Add your demo link here)*
+[View Live Demo](#) *(https://reyhandrakahfi.github.io/Maxo-Dashboard/)*
 
-## 📋 Table of Contents
-
-- [Installation](#installation)
-- [Project Structure](#project-structure)
-- [Usage Guide](#usage-guide)
-- [Customization](#customization)
-- [Browser Support](#browser-support)
-- [Technologies Used](#technologies-used)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## 🛠 Installation
 
