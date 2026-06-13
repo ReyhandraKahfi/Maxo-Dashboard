@@ -32,7 +32,7 @@ A modern, feature-rich admin dashboard for managing business operations, includi
 
 ## 🚀 Live Demo
 
-[View Live Demo](#) *(https://reyhandrakahfi.github.io/Maxo-Dashboard/)*
+*Click here to View* (https://reyhandrakahfi.github.io/Maxo-Dashboard/)*
 
 
 ## 🛠 Installation
